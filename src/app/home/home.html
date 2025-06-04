@@ -1,0 +1,248 @@
+<div class="portfolio_body_wrapper">
+
+
+<div class="portfolio_loading" id="portfolioLoader">
+    <div class="portfolio_loader"></div>
+</div>
+
+<!-- Animated Background -->
+<div class="portfolio_particles_bg"></div>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg portfolio_navbar_custom fixed-top">
+    <div class="container">
+        <a class="navbar-brand text-white fw-bold" href="#home">
+            <span style="color: #00d9ff;">Portfolio</span>
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"
+                style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 30 30%22><path stroke=%22rgba(255, 255, 255, 1)%22 stroke-linecap=%22round%22 stroke-miterlimit=%2210%22 stroke-width=%222%22 d=%22M4 7h22M4 15h22M4 23h22%22/></svg>');"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link portfolio_nav_link active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link portfolio_nav_link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link portfolio_nav_link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link portfolio_nav_link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link portfolio_nav_link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div>
+    <section id="home" class="portfolio_hero_section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="portfolio_hero_title">Full Stack Developer</h1>
+                    <h2 class="portfolio_hero_subtitle">MCA Student & AI/ML Enthusiast</h2>
+                    <p class="portfolio_hero_description">
+                        Crafting innovative web applications with ASP.NET Core, Angular, and ML.NET.
+                        Currently pursuing MCA from RTMNU with expertise in full-stack development and AI integration.
+                    </p>
+                    <button class="btn portfolio_cta_button"
+                        onclick="document.getElementById('contact').scrollIntoView()">
+                        Get In Touch
+                    </button>
+                </div>
+                <div class="col-lg-6">
+                    <div class="position-relative">
+                        <div class="portfolio_floating_element">
+                            <div class="portfolio_tech_icon">
+                                <i class="fab fa-angular"></i>
+                            </div>
+                        </div>
+                        <div class="portfolio_floating_element">
+                            <div class="portfolio_tech_icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                        </div>
+                        <div class="portfolio_floating_element">
+                            <div class="portfolio_tech_icon">
+                                <i class="fab fa-microsoft"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="portfolio_section_wrapper">
+        <div class="container">
+            <h2 class="portfolio_section_title portfolio_reveal">About Me</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="portfolio_about_card portfolio_reveal">
+                        <p class="lead text-center mb-4">
+                            I am currently pursuing MCA from RTMNU. With a B.Com background and a passion for web
+                            development and AI/ML,
+                            I specialize in ASP.NET Core, Angular, ML.NET, and building advanced integrated systems.
+                        </p>
+                        <div class="text-center">
+                            <span class="portfolio_skill_item">
+                                <i class="fas fa-cog me-2"></i>ASP.NET Core Developer
+                            </span>
+                            <span class="portfolio_skill_item">
+                                <i class="fas fa-brain me-2"></i>ML.NET (Image Classification)
+                            </span>
+                            <span class="portfolio_skill_item">
+                                <i class="fab fa-angular me-2"></i>Angular 18 & Frontend
+                            </span>
+                            <span class="portfolio_skill_item">
+                                <i class="fas fa-tools me-2"></i>Full-stack Projects
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="portfolio_section_wrapper">
+        <div class="container">
+            <h2 class="portfolio_section_title portfolio_reveal">Featured Projects</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio_project_card portfolio_reveal">
+                        <div class="portfolio_project_icon">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <h3 class="portfolio_project_title">Skin Disease Prediction</h3>
+                        <p class="portfolio_project_description">
+                            AI-based system using ML.NET and ASP.NET Core for advanced image classification and medical
+                            prediction with
+                            high accuracy rates.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio_project_card portfolio_reveal">
+                        <div class="portfolio_project_icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3 class="portfolio_project_title">Leave Management System</h3>
+                        <p class="portfolio_project_description">
+                            Comprehensive role-based system using ASP.NET Core Identity with admin/user features and
+                            robust MS SQL
+                            backend integration.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio_project_card portfolio_reveal">
+                        <div class="portfolio_project_icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <h3 class="portfolio_project_title">Social Media Integration</h3>
+                        <p class="portfolio_project_description">
+                            Seamlessly integrated YouTube, LinkedIn, Snapchat, and TikTok APIs with modern Angular
+                            frontend and .NET
+                            backend architecture.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="portfolio_section_wrapper">
+        <div class="container">
+            <h2 class="portfolio_section_title portfolio_reveal">Services Offered</h2>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="portfolio_service_card portfolio_reveal">
+                        <div class="portfolio_service_icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h4 class="portfolio_service_title">Web App Development</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="portfolio_service_card portfolio_reveal">
+                        <div class="portfolio_service_icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h4 class="portfolio_service_title">AI/ML Integration</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="portfolio_service_card portfolio_reveal">
+                        <div class="portfolio_service_icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4 class="portfolio_service_title">Social Media API Integration</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="portfolio_service_card portfolio_reveal">
+                        <div class="portfolio_service_icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h4 class="portfolio_service_title">Secure Login Systems (JWT)</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="portfolio_section_wrapper">
+        <div class="container">
+            <h2 class="portfolio_section_title portfolio_reveal">Get In Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="portfolio_contact_form portfolio_reveal">
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control portfolio_form_control"
+                                        placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control portfolio_form_control"
+                                        placeholder="Your Email" required>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control portfolio_form_control" rows="5"
+                                        placeholder="Your Message" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn portfolio_submit_btn">
+                                        <i class="fas fa-paper-plane me-2"></i>Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="portfolio_social_links portfolio_reveal">
+                        <a href="https://github.com/" class="portfolio_social_link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" class="portfolio_social_link" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/ancfashionstore/" class="portfolio_social_link"
+                            target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</div>
